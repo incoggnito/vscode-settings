@@ -1,0 +1,84 @@
+{
+  "editor.tabCompletion": "on",
+  "emmet.excludeLanguages": [],
+  "emmet.includeLanguages": {
+    "markdown": "html"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "git.autofetch": true,
+  "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+      "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+      }
+  },
+  "todo-tree.tree.showScanModeButton": false,
+  "path-autocomplete.useBackslash": true,
+  //Terminal
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "C:\\Users\\qxo1686\\Miniconda3\\Scripts\\activate.bat"],
+  //VIM 
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>","<Esc>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before":["U"],
+      "after":["<C-r>"]
+    },
+    // Markdown
+    {
+      "before": ["g", "r"],
+      "commands": ["references-view.find"]
+    },
+    // peek references inline with gR
+    {
+      "before": ["g", "R"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    // open definition in new editor group with gs
+    {
+      "before": ["g", "s"],
+      "commands": ["editor.action.revealDefinitionAside"]
+    },
+    {
+      // peek definition inline with gD
+      "before": ["g", "D"],
+      "commands": ["editor.action.peekDefinition"]
+    },
+    // open link with gx
+    {
+      "before": ["g", "x"],
+      "commands": ["editor.action.openLink"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "python.dataScience.interactiveWindowMode": "perFile"
+}
