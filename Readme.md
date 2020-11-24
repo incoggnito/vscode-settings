@@ -3,12 +3,12 @@
 ## Installation
 
 1. Download vscode https://code.visualstudio.com/Download
-2. Open the user folder %appdata%/code/user
-3. Load from git \\TODO Link to git installation
+2. Open the user folder `%appdata%/code/user`
+3. Clone Settings from git repo
 
 ```sh
 git init
-git remote add origin https://gitlab.com/incoggnito/dotfiles
+git remote add origin https://gitlab.com/incoggnito/vscode-settings
 git pull origin master
 ```
 
