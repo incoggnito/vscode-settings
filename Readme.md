@@ -12,4 +12,10 @@ git remote add origin https://gitlab.com/incoggnito/dotfiles
 git pull origin master
 ```
 
-4. Run `extensions.sh` 
+Update the extensions File
+
+```powershell
+code --list-extensions | Out-File -FilePath  $env:appdata\Code\User\extensions.vsix
+```
+
+4. Run `extensions.sh`
