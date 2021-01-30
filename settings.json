@@ -1149,5 +1149,6 @@
   ],
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.inheritEnv": false,
-  "kite.showWelcomeNotificationOnStartup": false
+  "kite.showWelcomeNotificationOnStartup": false,
+  "git.enableSmartCommit": true
 }
