@@ -50,8 +50,7 @@
   },
 
   // TODO Tree
-  "todo-tree.tree.showScanModeButton": false,
-
+  
   //Terminal
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
   "terminal.integrated.shellArgs.windows": [
@@ -1141,4 +1140,12 @@
   ],
   "workbench.colorTheme": "One Dark Pro",
   "editor.quickSuggestions": null,
+  "revealjs.browserPath": "C:\\Users\\Andreas Hofer\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+  "revealjs.slideNumber": true,
+  "revealjs.theme": "simple",
+  "revealjs.highlightTheme": "Atom One Dark",
+  "notebook.kernelProviderAssociations": [
+  
+  ],
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W3tcIm5hbWVcIjpcIkpldEJyYWluc01vbm8gTmVyZCBGb250XCJ9XSxcImxpYnJhcmllc1wiOlwiZ2VuZXJhbFwiLFwiY3VzdG9tTGlicmFyaWVzXCI6W1wiTC5zY3JhdGNocGFkXCJdLFwicGx1Z2luc1wiOltdLFwicmVjZW50Q29sb3JzXCI6W1wiMzMzMzMzXCIsXCJGMEYwRjBcIixcIjFBMUExQVwiLFwiOTlDQ0ZGXCIsXCJcIixcIkZGRkZGRlwiLFwiMzM5OUZGXCIsXCI5OTAwMDBcIixcIjMzMDAwMFwiLFwiRkY2NjY2XCIsXCIwMDAwRkZcIl0sXCJmb3JtYXRXaWR0aFwiOjI0MCxcImNyZWF0ZVRhcmdldFwiOmZhbHNlLFwicGFnZUZvcm1hdFwiOntcInhcIjowLFwieVwiOjAsXCJ3aWR0aFwiOjUwMCxcImhlaWdodFwiOjYwMH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
 }
