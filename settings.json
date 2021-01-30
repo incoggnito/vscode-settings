@@ -1139,8 +1139,6 @@
     }
   ],
   "workbench.colorTheme": "One Dark Pro",
-  "editor.quickSuggestions": null,
-  "revealjs.browserPath": "C:\\Users\\Andreas Hofer\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
   "revealjs.slideNumber": true,
   "revealjs.theme": "simple",
   "revealjs.highlightTheme": "Atom One Dark",
