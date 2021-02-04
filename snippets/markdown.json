@@ -12,4 +12,23 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"yhead":{
+		"prefix": "Insert Yaml Header",
+		"body":
+			[
+				"---",
+				"author: \"Andreas Hofer\"",
+				"date: \"27-11-2020\"",
+				"transition: \"slide\"",
+				"highlightTheme: \"Atom-One-Dark\"",
+				"logoImg: \"Logo.svg\"",
+				"slideNumber: True",
+				"title: \"VSCode Reveal intro\"",
+				"enableTitleFooter: true",
+				"enableZoom: true",
+				"customTheme: \"custom\"",
+				"---"
+			]
+	},
+
 }
