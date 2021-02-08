@@ -4,7 +4,7 @@
 
 1. Download [vscode](https://code.visualstudio.com/Download)
 2. Open the user folder %appdata%/code/user
-3. Load from git \\TODO Link to git installation
+3. Load from git 
 
     ```sh
     git init
@@ -12,5 +12,6 @@
     git pull origin master
     ```
 
-4. Run `extensions.sh`
+4. change the userspecific settings like the project manager path
+4. Run `extensions.sh` (write `code --list-extensions`)
 5. Install the fonts

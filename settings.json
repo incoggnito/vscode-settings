@@ -17,10 +17,8 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   
   // Python
-  "python.pythonPath": "$HOME/.miniconda/envs/pyDev/bin/python",
-  "python.languageServer": "Pylance",
-  "python.terminal.activateEnvironment": false,
-  "python.condaPath": "$HOME/.miniconda/bin/conda",
+  "python.languageServer": "Jedi",
+  "python.terminal.activateEnvironment": true,
   "python.formatting.provider": "black",
   "python.insidersChannel": "off",
   "python.showStartPage": false,
@@ -49,12 +47,12 @@
       }
   },
 
-  // TODO Tree
+  // Todo-Tree
   
   //Terminal
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-  "terminal.integrated.shellArgs.windows": [
-    "C:\\Users\\qxo1686\\Miniconda3\\Scripts\\activate.bat"],
+  "terminal.integrated.shell.windows": "C:\\Users\\qxo1686\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+  "terminal.integrated.fontFamily": " MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
   
   //Mermaid
   "mermaid-editor.preview.theme": "dark",
@@ -1166,7 +1164,7 @@
     "Substitute": "vim"
   },
   "projectManager.git.baseFolders": [
-    "%userporifle%\\Projekte"
+    "C:\\Users\\qxo1686\\Projekte"
   ],
    //VIM 
   "vim.easymotion": true,

@@ -6,31 +6,32 @@
 
 # Visual Studio Code :: Package list
 pkglist=(
-ms-vscode.cpptools
-ms-python.python
-vscodevim.vim
-donjayamanne.githistory
-eamodio.gitlens
-coenraads.bracket-pair-colorizer-2
-vscode-icons-team.vscode-icons
-github.github-vscode-theme
-christian-kohler.path-intellisense
-mhutchie.git-graph
-Gruntfuggly.todo-tree
-hediet.vscode-drawio
-marp-team.marp-vscode
-shd101wyy.markdown-preview-enhanced
-shuworks.vscode-table-formatter
-esbenp.prettier-vscode
-davidanson.vscode-markdownlint
-njpwerner.autodocstring
-ms-python.vscode-pylance
 alefragnani.project-manager
 bierner.markdown-preview-github-styles
-GrapeCity.gc-excelviewer
-huntertran.auto-markdown-toc
-mdickin.markdown-shortcuts
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer-2
+Darfka.vbscript
+DavidAnson.vscode-markdownlint
+eamodio.gitlens
+eightHundreds.vscode-drawio
+esbenp.prettier-vscode
+evilz.vscode-reveal
+formulahendry.code-runner
+Gruntfuggly.todo-tree
+luggage66.VBScript
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+njpwerner.autodocstring
+redhat.vscode-yaml
+samuelcolvin.jinjahtml
+tomoyukim.vscode-mermaid-editor
+vscode-icons-team.vscode-icons
+vscodevim.vim
+VSpaceCode.whichkey
 yzhang.markdown-all-in-one
+ZainChen.json
+zhuangtongfa.material-theme
 )
 
 for i in ${pkglist[@]}; do
