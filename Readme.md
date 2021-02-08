@@ -15,3 +15,4 @@
     git branch -M main
     git push -u origin main
     ```
+5. Install the Fonts (windows10 rClick and install)
