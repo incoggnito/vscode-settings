@@ -1,12 +1,10 @@
 {
   // Editor
-  "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.tabCompletion": "on",
   "editor.suggestSelection": "first",
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": " MesloLGS NF",
   "editor.snippetSuggestions": "bottom",
 
   // Workbench
@@ -38,7 +36,7 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.shell.windows": "C:\\Users\\qxo1686\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
-  "terminal.integrated.enableBell": false
+  "terminal.integrated.enableBell": false,
 
   // Mermaid
   "mermaid-editor.preview.theme": "dark",
@@ -60,57 +58,39 @@
 
    // VIM 
   "vim.easymotion": true,
+  "vim.surround": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.duration": 400,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "k"],
+      "before": ["j", "j"],
       "after": ["<Esc>"]
     },
     {
-      "before": ["j", "j"],
+      "before": ["j", "k"],
       "after": ["<Esc>"]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
+      "before": ["U"],
+      "commands": [":redo"]
     },
     {
-      "before": ["<leader>","<Esc>"],
+      "before": ["<esc><esc>"],
       "commands": [":nohl"]
     },
     {
-      "before":["U"],
-      "after":["<C-r>"]
-    },
-    // Markdown
-    {
-      "before": ["g", "r"],
-      "commands": ["references-view.find"]
-    },
-    // peek references inline with gR
-    {
-      "before": ["g", "R"],
-      "commands": ["editor.action.referenceSearch.trigger"]
-    },
-    // open definition in new editor group with gs
-    {
-      "before": ["g", "s"],
-      "commands": ["editor.action.revealDefinitionAside"]
+      "before": ["H"],
+      "commands": ["$"]
     },
     {
-      // peek definition inline with gD
-      "before": ["g", "D"],
-      "commands": ["editor.action.peekDefinition"]
-    },
-    // open link with gx
-    {
-      "before": ["g", "x"],
-      "commands": ["editor.action.openLink"]
+        "before": ["H"],
+        "after": ["^"]
     }
   ],
   "vim.leader": "<space>",
