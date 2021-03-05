@@ -19,3 +19,4 @@ code --list-extensions | Out-File -FilePath  $env:appdata\Code\User\extensions.v
 ```
 
 4. Run `extensions.sh`
+5. Win10 --> Set the default terminal to git bash (TODO settings $home)
