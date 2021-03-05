@@ -12,8 +12,15 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"yhead":{
-		"prefix": "Insert Yaml Header",
+     "yhead": {
+        "prefix": "Insert Yaml Header",
+        "body": [
+            "author: \"Andreas Hofer\"",
+            "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+        ]
+    },
+	"yrhead":{
+		"prefix": "Insert Yaml reveal Header",
 		"body":
 			[
 				"---",
