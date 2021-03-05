@@ -54,7 +54,9 @@
 
   // Project Manager
   "projectManager.git.baseFolders": [
-    "C:\\Users\\qxo1686\\Projekt"
+    "$home\\Projekt",
+    "$home\\AppData\\Roaming\\Code\\User"
+>>>>>>> c21a5a49175a8f6abbacbef83498dd9251a13ec7
   ],
 
    // VIM 
@@ -108,4 +110,5 @@
       "filenamePattern": "*.ipynb"
     }
   ],
+  "todo-tree.tree.showScanModeButton": false,
 }
