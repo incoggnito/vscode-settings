@@ -10,7 +10,6 @@ alefragnani.project-manager
 bierner.markdown-preview-github-styles
 christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer-2
-Darfka.vbscript
 DavidAnson.vscode-markdownlint
 eamodio.gitlens
 eightHundreds.vscode-drawio
@@ -18,7 +17,6 @@ esbenp.prettier-vscode
 evilz.vscode-reveal
 formulahendry.code-runner
 Gruntfuggly.todo-tree
-luggage66.VBScript
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
@@ -28,10 +26,9 @@ samuelcolvin.jinjahtml
 tomoyukim.vscode-mermaid-editor
 vscode-icons-team.vscode-icons
 vscodevim.vim
-VSpaceCode.whichkey
 yzhang.markdown-all-in-one
 ZainChen.json
-zhuangtongfa.material-theme
+jdinhlife.gruvbox
 )
 
 for i in ${pkglist[@]}; do
