@@ -21,7 +21,11 @@
 
  // Python
  "python.linting.enabled": true,
+ "python.linting.mypyEnabled": true,
+ "python.linting.pylintEnabled": true,
+ "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint.exe",
  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
+ "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scrips\\mypy.exe",
  "python.showStartPage": false,
  "python.terminal.activateEnvInCurrentTerminal": true,
  "python.venvFolders": ["venv", ".venv"],
