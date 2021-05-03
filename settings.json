@@ -23,6 +23,7 @@
  "python.linting.enabled": true,
  "python.linting.mypyEnabled": true,
  "python.linting.pylintEnabled": true,
+ "python.sortImports.path": "${workspaceFolder}\\venv\\Scripts\\isort.exe",
  "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint.exe",
  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
  "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scrips\\mypy.exe",
