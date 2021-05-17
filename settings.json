@@ -12,14 +12,34 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.iconTheme": "vscode-icons",
+  "workbench.edVitorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
 
  // Python
  "python.linting.enabled": true,
+ "python.linting.mypyEnabled": true,
+ "python.linting.pylintEnabled": true,
+ "python.sortImports.path": "${workspaceFolder}\\venv\\Scripts\\isort.exe",
+ "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint.exe",
  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
+ "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scrips\\mypy.exe",
  "python.showStartPage": false,
  "python.terminal.activateEnvInCurrentTerminal": true,
  "python.venvFolders": ["venv", ".venv"],
  "python.terminal.activateEnvironment": true,
+ "python.terminal.launchArgs": [
+  "-m",
+  "IPython",
+  "--no-autoindent"
+  ],
+  "python.pythonPath": "venv\\Scripts\\python.exe",
+  
+  //Jupyter
+  "jupyter.alwaysTrustNotebooks": true,
 
   // Git
   "git.autofetch": true,
@@ -99,12 +119,6 @@
   },
 
   //DrawIO
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
   "todo-tree.tree.showScanModeButton": false,
   "todo-tree.general.tags": [
     "BUG",
