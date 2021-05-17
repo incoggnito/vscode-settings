@@ -26,7 +26,7 @@
  "python.sortImports.path": "${workspaceFolder}\\venv\\Scripts\\isort.exe",
  "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint.exe",
  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
- "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scrips\\mypy.exe",
+ "python.linting.mypyPath": "mypy",
  "python.showStartPage": false,
  "python.terminal.activateEnvInCurrentTerminal": true,
  "python.venvFolders": ["venv", ".venv"],
@@ -158,6 +158,7 @@
     "Reilhofer",
     "Schabger",
     "Schabgeräusche",
+    "Spektrogramm",
     "Technolution",
     "Validierungsmethoden",
     "Vallen",
@@ -171,7 +172,9 @@
     "alpaydin",
     "bayaam",
     "bayaamünchen",
+    "cmap",
     "digungsarten",
+    "dplot",
     "dtype",
     "e",
     "fyrsonic",
@@ -187,6 +190,7 @@
     "nchen",
     "numpy",
     "ohtsu",
+    "pylab",
     "pyplot",
     "reilhoferkg",
     "rper",
@@ -199,6 +203,7 @@
     "vaspy",
     "versch",
     "vibroakustischen",
+    "viridis",
     "xlabel",
     "ylabel",
     "zielke",
@@ -206,4 +211,10 @@
     "zstd"
   ],
   "python.languageServer": "Pylance",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
 }
