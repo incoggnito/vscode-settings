@@ -232,4 +232,5 @@
       "filenamePattern": "*.ipynb"
     }
   ],
+  "git.ignoreRebaseWarning": true,
 }
