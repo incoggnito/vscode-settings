@@ -20,11 +20,10 @@
   ],
 
  // Python
+  "python.languageServer": "Pylance",
  "python.linting.enabled": true,
  "python.linting.mypyEnabled": true,
- "python.linting.pylintEnabled": true,
  "python.sortImports.path": "${workspaceFolder}\\venv\\Scripts\\isort.exe",
- "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint.exe",
  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
  "python.linting.mypyPath": "mypy",
  "python.showStartPage": false,
@@ -68,8 +67,16 @@
 
   // Project Manager
   "projectManager.git.baseFolders": [
-    "$home\\Projekt",
-    "$home\\AppData\\Roaming\\Code\\User"
+    "$home\\AppData\\Roaming\\Code\\User",
+    "$home\\Projekt"
+  ],
+  "projectManager.git.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    ".haxelib",
+    "venv"
   ],
 
   // Spell
@@ -170,6 +177,7 @@
     "Wälzkörperschaden",
     "akigastrogmbh",
     "alpaydin",
+    "atoolbox",
     "bayaam",
     "bayaamünchen",
     "cmap",
@@ -198,6 +206,7 @@
     "rperschaden",
     "textwidth",
     "tradb",
+    "ufffile",
     "usche",
     "vallenae",
     "vaspy",
@@ -210,7 +219,6 @@
     "zotero",
     "zstd"
   ],
-  "python.languageServer": "Pylance",
   "workbench.editorAssociations": [
     {
       "viewType": "jupyter.notebook.ipynb",
