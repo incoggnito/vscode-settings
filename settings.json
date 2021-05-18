@@ -20,7 +20,8 @@
   ],
 
  // Python
-  "python.languageServer": "Pylance",
+ "python.formatting.provider": "black",
+ "python.languageServer": "Pylance",
  "python.linting.enabled": true,
  "python.linting.mypyEnabled": true,
  "python.sortImports.path": "${workspaceFolder}\\venv\\Scripts\\isort.exe",
@@ -200,6 +201,8 @@
     "ohtsu",
     "pylab",
     "pyplot",
+    "pyqt",
+    "pyqtgraph",
     "reilhoferkg",
     "rper",
     "rpern",
