@@ -38,7 +38,14 @@
   ],
   "python.pythonPath": "venv\\Scripts\\python.exe",
   "python.linting.pylintEnabled": true,
-  "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
+  "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint.exe",
+  "python.testing.autoTestDiscoverOnSaveEnabled": true,
+  "python.linting.pylintCategorySeverity.warning": "Hint",
+  "python.linting.maxNumberOfProblems": 100,
+  "python.testing.pytestPath": "${workspaceFolder}\\venv\\Scripts\\pytest.exe",
+  "python.testing.pytestEnabled": true,
+  "python.testing.cwd": "tests",
+  "python.testing.pytestArgs": ["vvv"],
   
   //Jupyter
   "jupyter.alwaysTrustNotebooks": true,
@@ -228,11 +235,8 @@
     "zotero",
     "zstd"
   ],
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "git.ignoreRebaseWarning": true,
 }
