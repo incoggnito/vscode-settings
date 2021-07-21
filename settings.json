@@ -24,9 +24,8 @@
  "python.linting.mypyEnabled": true,
  "python.linting.pylintEnabled": true,
  "python.sortImports.path": "${workspaceFolder}\\venv\\Scripts\\isort.exe",
- "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint.exe",
  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
- "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scrips\\mypy.exe",
+ "python.linting.mypyPath": "mypy",
  "python.showStartPage": false,
  "python.terminal.activateEnvInCurrentTerminal": true,
  "python.venvFolders": ["venv", ".venv"],
@@ -129,4 +128,47 @@
     "[x]"
   ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "jupyter.askForKernelRestart": false,
+  "editor.largeFileOptimizations": false,
+  // Gitlab
+  "gitlab.ignoreCertificateErrors": true,
+  "gitlab.instanceUrl": "https://git.amitronics.net/",
+  "projectManager.svn.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    "venv"
+  ],
+  "projectManager.hg.maxDepthRecursion": 1,
+  "projectManager.hg.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    ".haxelib",
+    "venv"
+  ],
+  "projectManager.vscode.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    "venv"
+  ],
+  "projectManager.svn.maxDepthRecursion": 1,
+  "projectManager.git.maxDepthRecursion": 1,
+  "projectManager.git.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    ".haxelib",
+    "venv"
+  ],
+  "projectManager.any.maxDepthRecursion": 1,
+  "python.defaultInterpreterPath": "venv\\Scripts\\python.exe",
 }
