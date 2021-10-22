@@ -9,7 +9,7 @@
 ```sh
 git init
 git remote add origin https://gitlab.com/incoggnito/vscode-settings
-git pull origin master
+git pull origin main
 ```
 
 Update the extensions File
