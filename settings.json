@@ -83,6 +83,7 @@
   "revealjs.slideNumber": true,
   "revealjs.theme": "simple",
   "revealjs.highlightTheme": "Gruvbox",
+  "revealjs.browserPath": "C:\\Users\\ahofer\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
 
   // Kite
   "kite.showWelcomeNotificationOnStartup": false,
@@ -147,7 +148,9 @@
   "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
-    "<C-f>": false
+    "<C-f>": false,
+    "<C-c>": false,
+    "<C-v>": false 
   },
 
   //DrawIO
@@ -196,4 +199,13 @@
   "vsicons.dontShowNewVersionMessage": true,
   "security.workspace.trust.untrustedFiles": "open",
   "redhat.telemetry.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "files.autoSave": "onFocusChange",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "remote.SSH.remotePlatform": {
+    "192.168.105.59": "linux",
+    "DockerVM": "linux"
+  },
 }
