@@ -8,7 +8,7 @@
 
 ```sh
 git init
-git remote add origin https://gitlab.com/incoggnito/vscode-settings
+git remote add origin https://github.com/incoggnito/vscode-settings
 git pull origin main
 ```
 
@@ -19,4 +19,3 @@ code --list-extensions | Out-File -FilePath  $env:appdata\Code\User\extensions.v
 ```
 
 4. Run `extensions.sh`
-5. Win10 --> Set the default terminal to git bash (TODO settings $home)
