@@ -8,6 +8,8 @@
   "editor.snippetSuggestions": "bottom",
 
   // Workbench
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.list.automaticKeyboardNavigation": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorTheme": "Gruvbox Dark Hard",
@@ -206,6 +208,7 @@
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "remote.SSH.remotePlatform": {
     "192.168.105.59": "linux",
-    "DockerVM": "linux"
+    "DockerVM": "linux",
+    "App": "linux"
   },
 }
