@@ -209,6 +209,11 @@
   "remote.SSH.remotePlatform": {
     "192.168.105.59": "linux",
     "DockerVM": "linux",
-    "App": "linux"
+    "App": "linux",
+    "DockerDev": "linux"
   },
+  "cSpell.userWords": [
+    "Kanban",
+    "TISAX"
+  ],
 }
