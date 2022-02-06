@@ -14,47 +14,28 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.edVitorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
 
- // Python
- "python.defaultInterpreterPath": "venv\\Scripts\\python.exe",
- "python.formatting.provider": "black",
- "python.languageServer": "Pylance",
- "python.linting.enabled": true,
- "python.linting.mypyEnabled": true,
- "python.sortImports.path": "${workspaceFolder}\\venv\\Scripts\\isort.exe",
- "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
- "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scripts\\mypy.exe",
- "python.showStartPage": false,
- "python.terminal.activateEnvInCurrentTerminal": true,
- "python.venvFolders": ["venv", ".venv"],
- "python.terminal.activateEnvironment": true,
- "python.terminal.launchArgs": [
-  "-m",
-  "IPython",
-  "--no-autoindent"
-  ],
-  "python.pythonPath": "venv\\Scripts\\python.exe",
+  // Python
+  "python.defaultInterpreterPath": "${workspaceFolder}\\venv\\Scripts\\python.exe",
+  "python.formatting.provider":"black",
+  "python.languageServer": "Pylance",
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.sortImports.path": "${workspaceFolder}\\venv\\Scripts\\isort.exe",
+  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
+  "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scripts\\mypy.exe",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.venvFolders": ["venv", ".venv"],
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.launchArgs": ["-m", "IPython", "--no-autoindent"],
   "python.linting.pylintEnabled": true,
   "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint.exe",
   "python.linting.pylintCategorySeverity.warning": "Hint",
   "python.linting.maxNumberOfProblems": 100,
   "python.testing.pytestPath": "${workspaceFolder}\\venv\\Scripts\\pytest.exe",
   "python.testing.unittestEnabled": false,
-  "python.testing.nosetestsEnabled": false,
   "python.testing.pytestEnabled": true,
-  //"python.testing.cwd": "tests",
-  "python.testing.pytestArgs": [
-      "tests"
-  ],
-  
-  //Jupyter
-  "jupyter.alwaysTrustNotebooks": true,
+  "python.testing.pytestArgs": ["tests"],
 
   // Git
   "git.autofetch": true,
@@ -110,7 +91,7 @@
   // Spell
   "cSpell.language": "en,de",
 
-   // VIM 
+  // VIM
   "vim.easymotion": true,
   "vim.surround": true,
   "vim.incsearch": true,
@@ -131,8 +112,12 @@
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
+      "before": ["u"],
+      "commands": ["undo"]
+    },
+    {
       "before": ["U"],
-      "commands": [":redo"]
+      "commands": ["redo"]
     },
     {
       "before": ["<esc><esc>"],
@@ -143,16 +128,24 @@
       "commands": ["$"]
     },
     {
-        "before": ["H"],
-        "after": ["^"]
+      "before": ["H"],
+      "after": ["^"]
     }
   ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
+    // Select all
     "<C-a>": false,
+    // VS Code search in file
     "<C-f>": false,
+    // VS Code new marker @ next occurence
+    "<C-d>": false,
+    // Copy
     "<C-c>": false,
-    "<C-v>": false 
+    // Cut
+    "<C-x>": false,
+    // Paste
+    "<C-v>": false,
   },
 
   //DrawIO
@@ -212,8 +205,6 @@
     "App": "linux",
     "DockerDev": "linux"
   },
-  "cSpell.userWords": [
-    "Kanban",
-    "TISAX"
-  ],
+  "cSpell.userWords": ["filt", "Kanban", "postgresql", "sqlalchemy", "TISAX"],
+  "tabnine.experimentalAutoImports": true
 }
