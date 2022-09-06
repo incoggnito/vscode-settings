@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Projekt\\projecthours_frontend"
+		}
+	],
+	"settings": {
+		"window.title": "FRONTEND${separator}${activeEditorShort}${separator}${rootName}"
+	}
+}

@@ -1,0 +1,4 @@
+API_LOGIN_URL=http://localhost:8001/api/v1/login/
+API_URL=http://localhost:8001/api/v1/
+JWT_SECRET=pRmgMa8T0INjEAfksaq2aafzoZXEuwKI7wDe4c1F8AY=
+AUTHENTIK_LOGOUT_URL=https://amitronics.net/if/session-end/ph/

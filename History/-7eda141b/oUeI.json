@@ -1,0 +1,107 @@
+{
+    "server_info": {
+        "ID": 2001,
+        "Variables": {
+            "Endpoint": {
+                "Value": "opc.tcp://0.0.0.0:4840",
+                "NodeID": 1,
+                "writeable": false
+            },
+            "Name": {
+                "Value": "machine control OPC UA server",
+                "NodeID": 1,
+                "writeable": false
+            },
+            "Uri": {
+                "Value": "https://machine_control.de",
+                "NodeID": 1,
+                "writeable": false
+            }
+        }
+    },
+    "maschine_metadata": {
+        "ID": 2002,
+        "Variables": {
+            "MachineTyp": {
+                "Value": "Drahtzugmaschine",
+                "NodeID": 1,
+                "writeable": false
+            },
+            "SerialNumber": {
+                "Value": 101,
+                "NodeID": 2,
+                "writeable": false
+            },
+            "Location": {
+                "Value": "Chemnitz",
+                "NodeID": 3,
+                "writeable": false
+            },
+            "OwnerCompany": {
+                "Value": "Forschungsprojekt SmartSAD",
+                "NodeID": 4,
+                "writeable": false
+            },
+            "ManufactoringCompany": {
+                "Value": "Kieselstein International GmbH",
+                "NodeID": 5,
+                "writeable": false
+            }
+        }
+    },
+    "process_data": {
+        "ID": 2003,
+        "Variables": {
+            "velocity": {
+                "Value": 0,
+                "NodeID": 1,
+                "writeable": true,
+                "valid": [
+                    0,
+                    30,
+                    60,
+                    90,
+                    120
+                ]
+            },
+            "greasing": {
+                "Value": 0,
+                "NodeID": 2,
+                "writeable": true,
+                "valid": [
+                    0,
+                    1
+                ]
+            },
+            "cooling": {
+                "Value": 0,
+                "NodeID": 3,
+                "writeable": true,
+                "valid": [
+                    0,
+                    1
+                ]
+            },
+            "material": {
+                "Value": "Federstahl",
+                "NodeID": 4,
+                "writeable": true,
+                "valid": [
+                    "Federstahl",
+                    "Baustahl",
+                    "Edelstahl"
+                ]
+            },
+            "old_diameter": {
+                "Value": 0.0,
+                "NodeID": 5,
+                "writeable": true
+            },
+            "new_diameter": {
+                "Value": 0.0,
+                "NodeID": 6,
+                "writeable": true
+            }
+        }
+    }
+}

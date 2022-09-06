@@ -1,0 +1,43 @@
+title: Abschlussbericht smartSAD
+subtitle: Smarte Sensor- und Auswertesysteme für die Drahtfertigung
+author:
+    - Andreas Hofer
+author-mail: andreas.hofer@amitronics.de
+foerderkenz: 19I21016B
+projektlaufzeit: 01.07.2021 - 30.06.2024
+reporttime: 01.07.2021 - 31.12.2021
+institute: Institut
+tags:
+    - reproducible-research
+abstract: |
+    Zwischenbericht zum Arbeitsstand der Arbeitspakete 1, 2, 3, 8, 9
+lang: de-DE
+date: 
+  27.01.2022
+
+# - Page settings -----------------------------------------------------------
+papersize: a4 
+documentclass: article
+titlepage: true
+titlepage-rule-height: 0
+toc: true
+toc-title: Inhaltsverzeichnis
+toc-depth: 4
+toc-own-page: true
+lof: true
+lof-own-page: false
+lot: true
+lot-own-page: true
+numbersections: true
+colorlinks: true
+
+# - Logo settings -----------------------------------------------------------
+# Local logo
+logo: images/AmitronicsLogo/LogoAMITRONICS.pdf
+
+# - Bibliography -------------------------------------------------------------
+bibliography: Literatur.bib
+csl: ressources/citation_styles/ieee.csl
+link-citations: True
+# --- EOF --------------------------------------------------------------------
+    
