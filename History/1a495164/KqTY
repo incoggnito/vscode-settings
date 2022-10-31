@@ -1,0 +1,17 @@
+alias python='winpty python.exe'
+alias npp="/c/Program\ Files/Notepad++/notepad++.exe"
+alias acv=". venv/Scripts/activate"
+alias cv="py -3.9-64 -m venv venv"
+alias rsp='spyder -p "."'
+alias ccreate='cruft create https://git.amitronics.net/amitronics/templates/template_py.git'
+alias clink='cruft link https://git.amitronics.net/amitronics/templates/template_py.git'
+alias prm='poetry lock && poetry install --remove-untracked'
+alias pipir='pip install -r requirements.txt'
+
+
+alias jupyterff='ssh -N -f -L localhost:8887:localhost:8887 adhofer@192.168.105.79'
+
+function b2v(){
+	echo "bump2version --message '[{now:%Y-%m-%d}] $1 {new_version}' patch --allow-dirty"
+	eval "bump2version --message '[{now:%Y-%m-%d}] $1 {new_version}' patch --allow-dirty"
+}

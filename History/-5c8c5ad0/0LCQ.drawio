@@ -1,0 +1,134 @@
+<mxfile host="65bd71144e">
+    <diagram id="KzELdxLwyf88x765OR2N" name="Page-1">
+        <mxGraphModel dx="786" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="34" value="&lt;b&gt;&lt;font color=&quot;#00cc66&quot;&gt;XML-Zip-Upload&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;i&gt;&lt;font color=&quot;#cc6600&quot;&gt;HTTP-Login&lt;br&gt;mit Token&lt;/font&gt;&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="95" edge="1">
+                    <mxGeometry x="0.2685" y="25" relative="1" as="geometry">
+                        <mxPoint x="154" y="317" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="317"/>
+                            <mxPoint x="180" y="317"/>
+                            <mxPoint x="180" y="220"/>
+                        </Array>
+                        <mxPoint x="314" y="220" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;strokeWidth=2;" parent="1" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="474" y="250" as="targetPoint"/>
+                        <mxPoint x="320" y="375" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="29" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="(CAE-Bench)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="314" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Integrate App" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="534" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;font color=&quot;#00cc66&quot;&gt;HTTP&lt;/font&gt;&lt;br&gt;&lt;i&gt;&lt;font color=&quot;#cc6600&quot;&gt;OAuth2&lt;/font&gt;&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fillColor=#008a00;strokeColor=#005700;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="72" target="38" edge="1">
+                    <mxGeometry x="-0.2778" relative="1" as="geometry">
+                        <mxPoint x="594" y="410" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="Backend Devlopment (AMI)" style="swimlane;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
+                    <mxGeometry x="224" y="310" width="460" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="69" source="76" target="77" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="130" as="sourcePoint"/>
+                        <mxPoint x="160" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="69" source="77" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="130" as="sourcePoint"/>
+                        <mxPoint x="310" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="(ASAM ATFX)" style="rounded=1;whiteSpace=wrap;html=1;" parent="69" vertex="1">
+                    <mxGeometry x="50" y="200" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=oval;endFill=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="69" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="160" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="FastAPI&lt;br&gt;Endpoints" style="rounded=1;whiteSpace=wrap;html=1;" parent="69" vertex="1">
+                    <mxGeometry x="310" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" parent="69" source="76" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="70" y="100" as="sourcePoint"/>
+                        <mxPoint x="70.10000000000002" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="SQL Modell&lt;br&gt;Objektdefinition" style="rounded=1;whiteSpace=wrap;html=1;" parent="69" vertex="1">
+                    <mxGeometry x="10" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=oval;endFill=1;strokeWidth=2;" parent="69" source="77" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="220" y="57"/>
+                        </Array>
+                        <mxPoint x="96" y="57" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="Python Module&lt;br&gt;Logik-Dev" style="rounded=1;whiteSpace=wrap;html=1;" parent="69" vertex="1">
+                    <mxGeometry x="160" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/dep/SQL_Server_Stretch_DB.svg;" parent="69" vertex="1">
+                    <mxGeometry x="45" y="35" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="div. Frontend&lt;br&gt;auch lokale Möglichkeiten" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&#10;&#10;&lt;font color=&quot;#00cc66&quot; style=&quot;font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;HTTP&lt;/font&gt;&lt;br style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;i style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 11px; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;font color=&quot;#cc6600&quot;&gt;OAuth2&lt;/font&gt;&lt;/i&gt;&#10;&#10;" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=oval;endFill=1;" parent="1" source="72" target="74" edge="1">
+                    <mxGeometry x="-0.0667" y="-21" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=oval;endFill=1;strokeWidth=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="94" target="77" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="734" y="530" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="100" y="550"/>
+                            <mxPoint x="474" y="550"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="95" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="264" y="375" as="targetPoint"/>
+                        <mxPoint x="154" y="317" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="317"/>
+                            <mxPoint x="184" y="317"/>
+                            <mxPoint x="184" y="375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="&lt;font color=&quot;#00cc66&quot;&gt;ODBC&lt;/font&gt;&lt;br&gt;&lt;i&gt;&lt;font color=&quot;#cc6600&quot;&gt;IWA Login&lt;/font&gt;&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="91" vertex="1" connectable="0">
+                    <mxGeometry x="0.2752" y="1" relative="1" as="geometry">
+                        <mxPoint x="10" y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="NVHBrake" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="285" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="Lokale Anwendungen (MS-Tools)" style="swimlane;horizontal=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="250" width="160" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="Lieferanten&lt;br&gt;App" style="rounded=1;whiteSpace=wrap;html=1;" parent="96" vertex="1">
+                    <mxGeometry x="30" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

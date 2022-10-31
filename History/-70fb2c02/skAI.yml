@@ -1,0 +1,45 @@
+title: Abschlussbericht smartSAD
+subtitle: Smarte Sensor- und Auswertesysteme für die Drahtfertigung
+author:
+    - Andreas Hofer
+    - Karl Benkler
+    - Michael Kessler
+author-mail: 
+    - andreas.hofer@amitronics.de
+foerderkenz: 16KN055751
+projektlaufzeit: 01.05.2020 - 31.07.2022
+reporttime: 01.05.2020 - 31.10.2022
+institute: Institut
+tags:
+    - reproducible-research
+abstract: Im vorliegenden Projekt für smarte Drahtzugmaschinen werden Systembaukästen zur Zustandsüberwachung an Hand eines Fehlerkatalogs entwickelt. Dabei werden Anforderungen an das Messsystem und die Systemarchitektur ermittelt. Zusätzlich wird ein virtueller Zwilling der Maschinensteuerung eingeführt. In einem Informationsmodell werden die Kommunikationsschnittstellen zusammengefasst. Nach Ermittlung der Sensorposition, werden Abklingkurven am Draht und Einflüsse anderer Aggregate untersucht. Die erweiterte Analyse des Luftschalls und einer Hochgeschwindigkeitskamera liefert keine verwertbaren Referenzwerte für die Validierung der verwendeten Autoencoder. Es werden LSTM Autoencoder eingesetzt um den Verschleiß des Ziehssteins und Oberflächenbeschädigungen am Draht zu detektieren. Zur Erfassung von Kerben im Draht werden weitere Messdaten benötigt. Die Prognose des Verschleiß kann zuverlässig umgesetzt werden. Eine prototypische Software zur Visiualisierung von Störgrößen für den Maschinenbediener und zur Fehlerdiagnostik liegt vor. Durch OPC UA ist eine Schnittstelle zum Datenaustausch mit dem Maschinenhersteller umgesetzt.
+lang: de-DE
+date: 
+  28.10.2022
+
+# - Page settings -----------------------------------------------------------
+papersize: a4 
+documentclass: article
+titlepage: true
+titlepage-rule-height: 0
+toc: true
+toc-title: Inhaltsverzeichnis
+toc-depth: 4
+toc-own-page: true
+lof: true
+lof-own-page: false
+lot: true
+lot-own-page: true
+numbersections: true
+colorlinks: true
+
+# - Logo settings -----------------------------------------------------------
+# Local logo
+logo: images/AmitronicsLogo/Logo_Amitronics_New.pdf
+
+# - Bibliography -------------------------------------------------------------
+bibliography: Literatur.bib
+csl: ressources/citation_styles/ieee.csl
+link-citations: True
+# --- EOF --------------------------------------------------------------------
+    

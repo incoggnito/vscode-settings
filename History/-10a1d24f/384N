@@ -1,0 +1,3 @@
+*.pptx
+img/*
+!img/Amitronics.svg

@@ -1,0 +1,19 @@
+alias python='winpty python.exe'
+alias npp="/c/Program\ Files/Notepad++/notepad++.exe"
+alias acv=". venv/Scripts/activate"
+alias cv="py -3.9-64 -m venv venv"
+alias rsp='spyder -p "."'
+alias ccreate='cruft create https://git.amitronics.net/amitronics/templates/template_py.git'
+alias clink='cruft link https://git.amitronics.net/amitronics/templates/template_py.git'
+alias prm='poetry lock && poetry install --remove-untracked'
+alias pipir='pip install -r requirements.txt'
+
+
+alias port_forward='nohup ssh -N -f -L localhost:8889:localhost:8889 adhofer:password@remote_server_ip'
+alias remote_notebook_start='nohup ssh -f username:password@remote_server_ip "cd rne; . virtual_environment/bin/activate; jupyter notebook --no-browser --port=8889"; port_forward'
+alias remote_notebook_stop='ssh username:password@remote_server_ip "pkill -u username jupyter"'
+
+function b2v(){
+	echo "bump2version --message '[{now:%Y-%m-%d}] $1 {new_version}' patch --allow-dirty"
+	eval "bump2version --message '[{now:%Y-%m-%d}] $1 {new_version}' patch --allow-dirty"
+}

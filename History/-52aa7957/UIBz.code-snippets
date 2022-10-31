@@ -1,0 +1,51 @@
+{
+    "marpit": {
+        "prefix": "marpit",
+        "description": "Insert Yaml Marp Header",
+        "body": [
+            "---",
+            "marp: true",
+            "theme: custom",
+            "size: 16:9",
+            "paginate: true",
+            "backgroundImage: url('https://marp.app/assets/hero-background.jpg')",
+            "footer: \"Andreas Hofer, den $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+            "---",
+            "# Presentation"
+        ]
+    },
+    "textsize": {
+        "prefix": "textsize",
+        "description": "Insert a textblock",
+        "body": [
+            "<div class=\"text-${1|xss,xs,s,m,l|}\">",
+            "$2",
+            "</div>"
+        ]
+    },
+    "col": {
+        "prefix": "col",
+        "description": "Insert a column with textwidth in percent",
+        "body": [
+            "<div class=\"column-${1|30,40,50,60,70|}\">",
+            "$2",
+            "</div>"
+        ]
+    },
+    "row":{
+        "prefix": "row",
+        "description": "Add an new row",
+        "body": [
+            "<div class=\"row\">",
+            "$2",
+            "</div>"
+        ]
+    }
+    "margin":{
+        "prefix": "margin",
+        "description": "Add a margin between lines."
+        "body": [
+            "m-${1|}"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+title: INTEUM
+subtitle: Intelligentes, echtzeit- und transferfähiges System für Predictive Maintenance und Qualitätsüberwachung gespeist aus Produktionsplanungs- und Maschinenüberwachungsdaten
+author:
+    - Andreas Hofer
+author-mail: andreas.hofer@amitronics.de
+foerderkenz: DIE-2108-0006// DIE0156/01
+projektlaufzeit: 01.11.2021 - 30.10.2024
+berichtszeitraum: Berichtszeitraum
+institute: VDI/VDE-IT
+tags:
+    - reproducible-research
+abstract: |
+    A short description of this project.
+lang: de-DE
+date: 
+  15.10.2022
+
+# - Page settings -----------------------------------------------------------
+papersize: a4 
+documentclass: article
+titlepage: true
+titlepage-rule-height: 0
+toc: true
+toc-title: Inhaltsverzeichnis
+toc-depth: 4
+toc-own-page: true
+lof: true
+lof-own-page: false
+lot: true
+lot-own-page: true
+numbersections: true
+colorlinks: true
+
+# - Logo settings -----------------------------------------------------------
+# Local logo
+logo: images/AmitronicsLogo/Logo_Amitronics_New.pdf
+
+# - Bibliography -------------------------------------------------------------
+bibliography: Literatur.bib
+csl: ressources/citation_styles/ieee.csl
+link-citations: True
+# --- EOF --------------------------------------------------------------------
+    
