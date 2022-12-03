@@ -79,7 +79,8 @@
   "projectManager.git.baseFolders": [
     "$home\\AppData\\Roaming\\Code\\User",
     "C:\\Projekt",
-    "$home\\Projekt"
+    "$home\\Projekt",
+    "$home/.config/Code"
   ],
   "projectManager.git.ignoredFolders": [
     "node_modules",
@@ -114,6 +115,10 @@
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    },
+    {
       "before": ["u"],
       "commands": ["undo"]
     },
@@ -126,13 +131,64 @@
       "commands": [":nohl"]
     },
     {
-      "before": ["H"],
-      "commands": ["$"]
+      "before": ["£"],
+      "after": ["#"]
     },
     {
-      "before": ["H"],
-      "after": ["^"]
+      "before": [":"],
+      "commands": [
+          "workbench.action.showCommands",
+      ],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "m"],
+      "commands": [
+          "bookmarks.toggle"
+      ]
+    },
+    {
+        "before": ["<leader>", "b"],
+        "commands": [
+            "bookmarks.list"
+        ]
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": [
+          "workbench.action.files.save",
+      ]
     }
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": ["{"],
+      "after": ["w"]
+    },
+    {
+        "before": ["L"],
+        "after": ["$"]
+    },
+    {
+        "before": ["H"],
+        "after": ["^"]
+    },
+    {
+      "before": [
+            ">"
+        ],
+        "commands": [
+            "editor.action.indentLines"
+        ]
+    },
+    {
+        "before": [
+            "<"
+        ],
+        "commands": [
+            "editor.action.outdentLines"
+        ]
+    },
   ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
@@ -207,7 +263,10 @@
     "DockerVM": "linux",
     "App": "linux",
     "DockerDev": "linux",
-    "192.168.105.108": "linux"
+    "192.168.105.108": "linux",
+    "192.168.105.79": "linux",
+    "test-ml_workspace": "linux",
+    "192.168.2.46": "linux"
   },
   "cSpell.userWords": ["filt", "Kanban", "postgresql", "sqlalchemy", "TISAX"],
   "tabnine.experimentalAutoImports": true,
@@ -232,5 +291,9 @@
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "emmet.showSuggestionsAsSnippets": true,
-  "autoDocstring.docstringFormat": "numpy"
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  }
 }

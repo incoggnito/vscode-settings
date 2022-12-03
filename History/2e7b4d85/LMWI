@@ -1,6 +1,0 @@
-*.pptx
-img/*
-!img/Amitronics.svg
-data/*
-*.html
-presentation.md
