@@ -135,7 +135,7 @@
       "after": ["#"]
     },
     {
-      "before": [":"],
+      "before": ["<leader>", "P"],
       "commands": [
           "workbench.action.showCommands",
       ],
