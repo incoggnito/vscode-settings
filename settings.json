@@ -6,7 +6,8 @@
   "editor.suggestSelection": "first",
   "editor.cursorBlinking": "solid",
   "editor.snippetSuggestions": "bottom",
-
+  "editor.mouseWheelScrollSensitivity": 2.35,
+  
   // Workbench
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -16,24 +17,28 @@
   "workbench.iconTheme": "vscode-icons",
 
   // Python
-  "python.defaultInterpreterPath": "${workspaceFolder}\\venv\\Scripts\\python.exe",
+  "python.analysis.indexing": true,
+  "python.analysis.extraPaths": ["./src"],
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.defaultInterpreterPath": "${workspaceFolder}\\venv\\Scripts\\python",
   "python.formatting.provider": "black",
-  "python.languageServer": "Pylance",
+  "python.languageServer": "Default",
   "python.linting.enabled": true,
   "python.linting.mypyEnabled": true,
-  "python.sortImports.path": "${workspaceFolder}\\venv\\Scripts\\isort.exe",
-  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black.exe",
-  "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scripts\\mypy.exe",
+  "python.sortImports.is": "${workspaceFolder}\\venv\\Scripts\\isort",
+  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black",
+  "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scripts\\mypy",
   "python.terminal.activateEnvInCurrentTerminal": true,
   "python.venvFolders": ["venv", ".venv"],
   "python.terminal.activateEnvironment": true,
   "python.terminal.launchArgs": ["-m", "IPython", "--no-autoindent"],
   "python.linting.pylintEnabled": true,
-  "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint.exe",
+  "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint",
   "python.linting.pylintCategorySeverity.warning": "Hint",
   "python.linting.maxNumberOfProblems": 100,
   "python.linting.pylintArgs": ["--enable=W0614"],
-  "python.testing.pytestPath": "${workspaceFolder}\\venv\\Scripts\\pytest.exe",
+  "python.testing.pytestPath": "${workspaceFolder}\\venv\\Scripts\\pytest",
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "python.testing.pytestArgs": ["tests"],
@@ -79,7 +84,9 @@
   "projectManager.git.baseFolders": [
     "$home\\AppData\\Roaming\\Code\\User",
     "C:\\Projekt",
-    "$home\\Projekt"
+    "$home\\Projekt",
+    "$home/.config/Code/User",
+    "$home/.dotfiles"
   ],
   "projectManager.git.ignoredFolders": [
     "node_modules",
@@ -149,7 +156,12 @@
     // Paste
     "<C-v>": false
   },
-
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    }
+  ],
   //DrawIO
   "todo-tree.tree.showScanModeButton": false,
   "todo-tree.general.tags": [
@@ -231,6 +243,7 @@
     },
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
-  "emmet.showSuggestionsAsSnippets": true,
-  "autoDocstring.docstringFormat": "numpy"
+  "autoDocstring.docstringFormat": "numpy",
+  "whichkey.sortOrder": "alphabetically",
+  "whichkey.delay": 0
 }
