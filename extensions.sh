@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILENAME="extensions.vsix"
+FILENAME="lextensions.vsix"
 
 EXTENSIONS=$(cat $FILENAME)
 
