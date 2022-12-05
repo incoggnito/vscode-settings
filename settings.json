@@ -235,6 +235,6 @@
     "languageServer*/**": true,
     ".vscode-test": true,
     ".vscode test": true
-  }
-},
-"vsintellicode.sql.completionsEnabled": false,
+  },
+  "vsintellicode.sql.completionsEnabled": false
+}
