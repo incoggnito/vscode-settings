@@ -1,47 +1,53 @@
 {
   // Editor
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.tabCompletion": "on",
-  "editor.suggestSelection": "first",
   "editor.cursorBlinking": "solid",
-  "editor.snippetSuggestions": "bottom",
-  "editor.mouseWheelScrollSensitivity": 2.35,
-  
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[JSON]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[YAML]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+
   // Workbench
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": true,
   "workbench.list.automaticKeyboardNavigation": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.iconTheme": "vscode-icons",
 
   // Python
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
   "python.analysis.indexing": true,
   "python.analysis.extraPaths": ["./src"],
   "python.analysis.diagnosticMode": "workspace",
   "python.analysis.typeCheckingMode": "basic",
-  "python.defaultInterpreterPath": "${workspaceFolder}\\venv\\Scripts\\python",
   "python.formatting.provider": "black",
   "python.languageServer": "Default",
   "python.linting.enabled": true,
   "python.linting.mypyEnabled": true,
-  "python.sortImports.is": "${workspaceFolder}\\venv\\Scripts\\isort",
-  "python.formatting.blackPath": "${workspaceFolder}\\venv\\Scripts\\black",
-  "python.linting.mypyPath": "${workspaceFolder}\\venv\\Scripts\\mypy",
   "python.terminal.activateEnvInCurrentTerminal": true,
   "python.venvFolders": ["venv", ".venv"],
   "python.terminal.activateEnvironment": true,
   "python.terminal.launchArgs": ["-m", "IPython", "--no-autoindent"],
   "python.linting.pylintEnabled": true,
-  "python.linting.pylintPath": "${workspaceFolder}\\venv\\Scripts\\pylint",
   "python.linting.pylintCategorySeverity.warning": "Hint",
   "python.linting.maxNumberOfProblems": 100,
   "python.linting.pylintArgs": ["--enable=W0614"],
-  "python.testing.pytestPath": "${workspaceFolder}\\venv\\Scripts\\pytest",
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "python.testing.pytestArgs": ["tests"],
+  "python.isort.args": ["--profile", "black"],
 
   // Git
   "git.autofetch": true,
@@ -63,11 +69,6 @@
   "terminal.integrated.enableBell": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
 
-  // Mermaid
-  "mermaid-editor.preview.theme": "dark",
-  "mermaid-editor.preview.backgroundColor": "white",
-  "mermaid-editor.generate.type": "svg",
-
   // RevealJS
   "revealjs.slideNumber": true,
   "revealjs.theme": "simple",
@@ -88,14 +89,7 @@
     "$home/.config/Code/User",
     "$home/.dotfiles"
   ],
-  "projectManager.git.ignoredFolders": [
-    "node_modules",
-    "out",
-    "typings",
-    "test",
-    ".haxelib",
-    "venv"
-  ],
+  "projectManager.git.ignoredFolders": ["node_modules", "out", "typings", "test", ".haxelib", "venv"],
 
   // Spell
   "cSpell.language": "en,de",
@@ -120,6 +114,10 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
+    },
     {
       "before": ["u"],
       "commands": ["undo"]
@@ -164,15 +162,7 @@
   ],
   //DrawIO
   "todo-tree.tree.showScanModeButton": false,
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "FIXME",
-    "TODO",
-    "XXX",
-    "[ ]",
-    "[x]"
-  ],
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -183,29 +173,10 @@
   // Gitlab
   "gitlab.ignoreCertificateErrors": true,
   "gitlab.instanceUrl": "https://git.amitronics.net/",
-  "projectManager.svn.ignoredFolders": [
-    "node_modules",
-    "out",
-    "typings",
-    "test",
-    "venv"
-  ],
+  "projectManager.svn.ignoredFolders": ["node_modules", "out", "typings", "test", "venv"],
   "projectManager.hg.maxDepthRecursion": 1,
-  "projectManager.hg.ignoredFolders": [
-    "node_modules",
-    "out",
-    "typings",
-    "test",
-    ".haxelib",
-    "venv"
-  ],
-  "projectManager.vscode.ignoredFolders": [
-    "node_modules",
-    "out",
-    "typings",
-    "test",
-    "venv"
-  ],
+  "projectManager.hg.ignoredFolders": ["node_modules", "out", "typings", "test", ".haxelib", "venv"],
+  "projectManager.vscode.ignoredFolders": ["node_modules", "out", "typings", "test", "venv"],
   "vsicons.dontShowNewVersionMessage": true,
   "security.workspace.trust.untrustedFiles": "open",
   "redhat.telemetry.enabled": false,
@@ -222,7 +193,6 @@
     "192.168.105.108": "linux"
   },
   "cSpell.userWords": ["filt", "Kanban", "postgresql", "sqlalchemy", "TISAX"],
-  "tabnine.experimentalAutoImports": true,
   "explorer.confirmDelete": false,
   "task.problemMatchers.neverPrompt": {
     "austin": true
@@ -244,6 +214,27 @@
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "autoDocstring.docstringFormat": "numpy",
-  "whichkey.sortOrder": "alphabetically",
-  "whichkey.delay": 0
-}
+  "files.exclude": {
+    "out": true, // set this to true to hide the "out" folder with the compiled JS files
+    "dist": true,
+    "**/*.pyc": true,
+    ".nyc_output": true,
+    "obj": true,
+    "bin": true,
+    "**/__pycache__": true,
+    "**/node_modules": true,
+    ".vscode-test": false,
+    ".vscode test": false,
+    "**/.mypy_cache/**": true
+  },
+  "search.exclude": {
+    "out": true, // set this to false to include "out" folder in search results
+    "dist": true,
+    "**/node_modules": true,
+    "coverage": true,
+    "languageServer*/**": true,
+    ".vscode-test": true,
+    ".vscode test": true
+  }
+},
+"vsintellicode.sql.completionsEnabled": false,
